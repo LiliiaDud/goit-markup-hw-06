@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
+	<!--header-->
     <header class="page-header">
       <div class="container header-container">
         <nav class="header-nav">
@@ -39,9 +40,28 @@
             </li>
           </uL>
         </address>
+		<button class="burger-btn" type="button" data-menu-open> 
+			<svg class="burger-icon" width="24" height="24">
+		 		<use href="./images/icons.svg#icon-burger"></use>
+			</svg> 
+		</button>
       </div>  
+
+	  <div class="mobile-menu" data-menu>
+		<div class="container mobile-menu-container">
+			<button class="mobile-menu-close" data-menu-close>
+				Close
+			</button>
+			<nav class="mobile-menu-nav">Navigation</nav>
+			<adress>Adress</adress>
+			<div>Soc link</div>
+		</div>
+
+	  </div>
+
     </header>
 
+	<!--
     <main>
       <section class="hero-section">
         <div class="container">
@@ -49,8 +69,8 @@
           <button class="hero-button" type="button" data-modal-open>Order Service</button>  
         </div>         
       </section>
-      <!--2 section-->
-		<section class="container-section">
+      2 section-->
+		<section class="container-section section-solutions">
 			<div class="container"> 
 				<h2 class="visually-hidden">Features</h2>
 				<ul class="solutions-list">
@@ -60,7 +80,7 @@
 							  <use href="./images/icons.svg#icon-antenna"></use>
 							</svg>
 						</div>
-						<h3 class="section-title">Strategy</h3>
+						<h3 class="section-title solutions-title">Strategy</h3>
 						<p class="section-text">Our goal is to identify the business problem to 
 							walk away with the perfect and creative solution.
 						</p>                       
@@ -72,7 +92,7 @@
 							  <use href="./images/icons.svg#icon-clock"></use>
 							</svg>
 						</div>
-						<h3 class="section-title">Punctuality</h3>
+						<h3 class="section-title solutions-title">Punctuality</h3>
 						<p class="section-text">Bring the key message to the brand's audience for 
 							the best price within the shortest possible time.
 						</p>
@@ -84,7 +104,7 @@
 							  <use href="./images/icons.svg#icon-diagram"></use>
 							</svg>
 						</div>
-						<h3 class="section-title">Diligence</h3>
+						<h3 class="section-title solutions-title">Diligence</h3>
 						<p class="section-text">Research and confirm brands with the strongest 
 							digital growth opportunities and minimize risk.
 						</p>                        
@@ -96,7 +116,7 @@
 							  <use href="./images/icons.svg#icon-astronaut"></use>
 							</svg>
 						</div>					
-						<h3 class="section-title">Testimonials</h3>
+						<h3 class="section-title solutions-title">Testimonials</h3>
 						<p class="section-text">Design practice focused on digital experiences. 
 							We bring forth a deep passion for problem-solving.
 						</p>
@@ -113,8 +133,8 @@
 						<img src="./images/ProductDesigner.jpg" width="264" 
 							height="260" alt="Photo by the product designer">
 						<div class="team-inform">
-							<h3 class="section-title">Mark Guerrero</h3>
-							<p class="section-text">Product Designer</p>
+							<h3 class="section-title team-inform-title">Mark Guerrero</h3>
+							<p class="section-text team-inform-text">Product Designer</p>
 							<ul class="team-contact-list">
 								<li class="team-contact-item">
 									<a class="team-contact-link" href="">
@@ -152,8 +172,8 @@
 						<img src="./images/FrontendDeveloper.jpg" width="264" 
 							height="260" alt="Photo by the frontend developer">
 						<div class="team-inform">	
-							<h3 class="section-title">Tom Ford</h3>
-							<p class="section-text">Frontend Developer</p> 
+							<h3 class="section-title team-inform-title">Tom Ford</h3>
+							<p class="section-text team-inform-text">Frontend Developer</p> 
 							<ul class="team-contact-list">
 								<li class="team-contact-item">
 									<a class="team-contact-link">
@@ -191,8 +211,8 @@
 						<img src="./images/Marketing.jpg" width="264" 
 						height="260" alt="Photo by the marketing">
 						<div class="team-inform">
-							<h3 class="section-title">Camila Garcia</h3>
-							<p class="section-text">Marketing</p>
+							<h3 class="section-title team-inform-title">Camila Garcia</h3>
+							<p class="section-text team-inform-text">Marketing</p>
 							<ul class="team-contact-list">
 								<li class="team-contact-item">
 									<a class="team-contact-link">
@@ -230,8 +250,8 @@
 						<img src="./images/UIDesigner.jpg" width="264" 
 						height="260" alt="Photo by the UI Designer">
 						<div class="team-inform">
-							<h3 class="section-title">Daniel Wilson</h3>
-							<p class="section-text">UI Designer</p> 
+							<h3 class="section-title team-inform-title">Daniel Wilson</h3>
+							<p class="section-text team-inform-text">UI Designer</p> 
 							<ul class="team-contact-list">
 								<li class="team-contact-item">
 									<a class="team-contact-link">
@@ -267,7 +287,9 @@
 				</ul>
 			</div>
 		</section>
-		<!--4 section-->
+ 
+
+		<!--4 section
 		<section class="container-section">
 			<div class="container"> 
 				<h2 class="secondary-title">Our Portfolio</h2>
@@ -365,8 +387,9 @@
 				</ul>
 			</div>
 		</section>
+		-->
     </main>
-
+<!--
     <footer class="footer">
       	<div class="container footer-container">
 			<div class="container-logo">   
@@ -441,10 +464,11 @@
 			</div>
  		</div>
     </footer>
-
+-->
+	<!--кнопка close
 	<div class="backdrop" data-modal> 
 		<div class="modal">
-<!--кнопка close-->
+
 			<button 
 				type="button" 
 				class="modal-close"
@@ -557,7 +581,9 @@
 			</form>
 		</div>
 	</div>
-
+-->
+	
 	<script src="./js/modal.js"></script>
+	<script src="./js/menu.js"></script>
   </body>
 </html>
