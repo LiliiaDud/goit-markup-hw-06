@@ -1153,11 +1153,6 @@ button {
         padding: 100px 0 100px;
     }
 
-    .footer-container {
-        display: flex;
-        align-items: baseline;
-    }
-
     .container-logo {
         margin-right: 120px;
     }
