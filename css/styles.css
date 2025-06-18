@@ -1153,12 +1153,16 @@ button {
         padding: 100px 0 100px;
     }
 
+    .footer-container {
+        gap: 0;
+    }
+    
     .container-logo {
         margin-right: 120px;
     }
 
-    .container-form {
-        margin-left: auto;
+    .container-icons {
+        margin-right: 80px;
     }
      /* modal */
     .modal-item {
